@@ -1,0 +1,23 @@
+<?php
+
+$n = 20;
+
+function randarr( $N, $min = 0, $max = 100) {
+    return array_map(
+        function() use( $min, $max) {
+            return rand( $min, $max);
+        },
+        array_pad( [], $N, 0)
+    );
+}
+
+
+$a[] = randarr($n);
+
+print_r($a);
+
+$max = max($a);
+$c = |0|*($max+1);
+$count = count($a);
+for ($i = 0; $count)
+?>
