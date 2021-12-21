@@ -29,9 +29,19 @@
                 <label for="numb"  class="sr-only">Кол-во элементов множесвта</label>
                 <input style="width:200px;" type="number" id="numb" name="numb" class="form-control mt-2" placeholder="Введите кол-во элементов">
                 <input class="btn btn-success mt-3" type="submit" name="submit_two" value="Генерация случайного массива">
-                </form>
+                 </form>
                 </div>
-                <a href="lab1.2.php">aaaa</a>
+
+
+              <div class="col mt-3">
+                  <p>Задание 3.3</p>
+                  <form action="lab3.3.php" method="POST">
+                      <label for="numb"  class="sr-only">Кол-во элементов исходного множесвта</label>
+                      <input style="width:200px;" type="number" id="numb" name="array" class="form-control mt-2" placeholder="Введите кол-во элементов">
+                      <input class="btn btn-success mt-3" type="submit" name="submit_free" value="Генерация случайного подмножества">
+                  </form>
+              </div>
+
       </div>   
       </div>
   </div>
